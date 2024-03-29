@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+    font-family: "Bree Serif";
+    font-size: 40px;
+    color: #ffffff;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.like {
+  background-color: #eab308;
+  margin: 10px;
+  border-width: 0px;
+  height: 38px;
+  width: 138px;
+  border-radius: 10px;
+  color: antiquewhite;
+}
+.comment {
+  background-color: #ffffff;
+  border-width: 0px;
+  margin: 10px;
+  height: 38px;
+  width: 138px;
+  border-radius: 10px;
+  color: #323f4b;
+}
+.share {
+  background-color: #1d4ed8;
+  border-width: 0px;
+  margin: 10px;
+  height: 38px;
+  width: 138px;
+  border-radius: 10px;
+  color: antiquewhite;
+}
+@media screen and (max-width:767px)
+{
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .like{
+        width: 100px;
+    }
+    .share{
+        width: 100px;
+    }
+}
